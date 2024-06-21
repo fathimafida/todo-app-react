@@ -1,5 +1,5 @@
 
-import { useContext, useEffect, useState } from 'react'
+import {useEffect} from 'react'
 import TodoItemCard from './Components/TodoItemCard'
 import { useDispatch, useSelector } from 'react-redux'
 import { getTodoData } from '../../redux/slices/todoSlice'
